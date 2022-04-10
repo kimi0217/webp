@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>打字遊戲進階版</title>
+
+        <!--引入css-->
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+
+    <body>
+        <p id="index">遊戲規則：當賽道上的字母數量累積到95個時（即超出賽道），遊戲結束，跳出訊息"Game Over !"</p>
+
+        <div id="moveeng">
+            <p id="eng1">???</p>
+            <p id="eng2">???</p>
+            <p id="eng3">???</p>
+            <p id="eng4">???</p>
+            <p id="eng5">???</p>
+            <p id="eng6">???</p>
+        </div>
+
+        <!--#inputeng-->
+        <p class="input">輸入區：</p>
+        <input type="text" id="inputeng"/>
+
+        <!--#beeninput-->
+        <p class="input">已輸入的字母：</p>
+        <p id="beeninput">none</p>
+
+        <button id="start">開始遊戲</button>
+
+        <script src="java.js"></script>
+    </body>
+</html>

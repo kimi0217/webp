@@ -1,0 +1,22 @@
+#eng1, #eng2, #eng3, #eng4, #eng5, #eng6 {
+    border: medium solid black;
+    border-right: 0px;
+
+    margin: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    /*上右下左;*/
+    padding: 15px 0px 15px 15px;
+}
+
+#start, .input, #inputeng, #beeninput {
+    margin: 15px;
+    margin-left: 20px;
+}
+
+#index {
+    margin: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
