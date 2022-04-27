@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    
+    <script>
+        setInterval(myfunction, 1000);
+        function myfunction(){
+            let date = new Date();
+            let hours = date.getHours();
+            let min = date.getMinutes();
+            let sec = date.getSeconds();
+            $("#t").html(hours+":"+min+":"+sec);
+        } 
+    </script>
+</head>
+<body>
+    <div>
+        <h2>CGU TIMER</h2>
+        <h2 id = 't'></h2>
+    </div>
+</body>
+</html>
