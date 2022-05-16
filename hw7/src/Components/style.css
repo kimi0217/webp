@@ -1,0 +1,56 @@
+#input1 {
+    width: 100px;
+    height: 30px;
+    border: 2px solid #3399CC;
+
+    position: absolute;
+    right: 30px;
+    bottom: 165px;
+}
+
+#input2 {
+    width: 100px;
+    height: 30px;
+    border: 2px solid #3399CC;
+
+    position: absolute;
+    right: 30px;
+    bottom: 100px;
+}
+
+#text1 {
+    position: absolute;
+    left: 30px;
+    bottom: 160px;
+}
+
+#text2 {
+    position: absolute;
+    left: 30px;
+    bottom: 95px;
+}
+
+button {
+    width: 150px;
+    height: 30px;
+    border: 2px solid #3399CC;
+
+    background-color: white;
+
+    text-align: center;
+
+    position: absolute;
+    top:75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    margin-top: 20px;
+}
+
+.item {
+    margin: 20px;
+}
+
+#CGU_Login {
+    text-align: center;
+}
